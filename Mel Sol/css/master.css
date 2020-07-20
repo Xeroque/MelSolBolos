@@ -1,18 +1,34 @@
+
+/* ELEMENT STYLING */
+
 body {
   background-color: #F2E3D0;
 }
 h2{
   font-family: 'Amatic SC', cursive;
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+/* CLASS STYLING */
+
+/* LOGO IN THE NAVBAR */
 .logo{
     width: 12vw;
     max-width: 300px;
 }
+
+/* COMPANY NAME NEXT TO LOGO ON NAVBAR */
 .title{
   font-family: 'Berkshire Swash', cursive;
   color:#042A2B;
   font-size: 10vh;
 }
+
+/* PARALLAX DIVS */
 .orangeblob {
   background-image: url("./images/Curve.png");
   background-size: 100%;
@@ -73,18 +89,16 @@ h2{
   background-position: left;
   top: 0;
 }
+
+/* SPACER STYLING */
 .spacer30vh{
   padding-top: 20vh;
 }
 .spacer60vh{
   padding-top: 60vh;
 }
-a{
-  text-decoration: none;
-}
-a:hover{
-  text-decoration: none;
-}
+
+/* STYLING OF THE MAIN CALL TO ACTION BUTTON */
 .mainbutton{
   height: 10vh;
   border-radius: 40px;
