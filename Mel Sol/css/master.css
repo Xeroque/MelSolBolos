@@ -1,0 +1,106 @@
+body {
+  background-color: #F2E3D0;
+}
+h2{
+  font-family: 'Amatic SC', cursive;
+}
+.logo{
+    width: 12vw;
+    max-width: 300px;
+}
+.title{
+  font-family: 'Berkshire Swash', cursive;
+  color:#042A2B;
+  font-size: 10vh;
+}
+.orangeblob {
+  background-image: url("./images/Curve.png");
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: -10;
+  background-position: center;
+  top: 0;
+  opacity: .75
+}
+.floatingbread{
+  background-image: url("./images/Bread.png");
+  background-size:100%;
+  background-position: right;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: -10;
+  top: 0;
+  opacity: .75
+}
+.floatingbox{
+  padding-top: 280vh;
+  background-image: url("./images/Box.png");
+  background-size:100%;
+  background-position: right;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: -10;
+  top: 0;
+}
+.floatingberries{
+  background-image: url("./images/Berries.png");
+  background-size:100%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: -10;
+  background-position: center;
+  top: 0;
+  opacity: .75
+}
+.floatingjar{
+  margin-top: 65vh;
+  background-image: url("./images/Jar.png");
+  background-size:100%;
+  width: 75vw;
+  height: 75vh;
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: -10;
+  background-position: left;
+  top: 0;
+}
+.spacer30vh{
+  padding-top: 20vh;
+}
+.spacer60vh{
+  padding-top: 60vh;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.mainbutton{
+  height: 10vh;
+  border-radius: 40px;
+  background: linear-gradient(145deg, #de6262 , #ffb88c);
+}
+.mainbutton:hover{
+height: 10vh;
+border-radius: 40px;
+background: linear-gradient(145deg, #A14747 , #9E7257);
+}
+.mainbuttontext{
+  color: white;
+  font-family: 'Amatic SC', cursive;  font-weight: 800;
+  text-align: center;
+  font-size: 5vh;
+  padding-top: 1vh;
+  width: 100%;
+  height: 100%;
+}
