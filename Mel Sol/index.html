@@ -4,19 +4,27 @@
 <head>
   <meta charset="utf-8">
   <title>Mel Sol</title>
-  <!-- Google Fonts -->
+
+  <!-- GOOGLE FONTS (NOT ALL FONTS HERE ARE BEIGN USED, CLEAN UP BEFORE RELEASE) -->
+
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=Berkshire+Swash&family=Spartan:wght@300;400;800&display=swap" rel="stylesheet">
-  <!-- Bootstrap 4 -->
+
+  <!-- BOOTSTRAP 4 -->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <!-- Custom CSS -->
+
+  <!-- CUSTOM CSS -->
+
   <link rel="stylesheet" href="css/master.css">
 </head>
 
 <body>
-  <!-- Bootstrap navbar with customization -->
+
+  <!-- BOOTSTRAP NAVBAR BUT CUSTOMIZED A BIT -->
+
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="logocontainer">
       <div class="logopart">
@@ -25,11 +33,17 @@
     </div>
     <a class="navbar-brand title" href="#">Mel Sol</a>
   </nav>
+
+  <!-- DIV'S AFECTED BY THE PARALLAX -->
   <div class="floatingberries"></div>
   <div class="orangeblob"></div>
   <div class="floatingbread"></div>
+
+  <!-- SPACER SECTION IS HERE SO I DON'T HAVE TO MESS WITH THE MARGIN AND PADDING OF THE BOOTSTRAP ELEMENTS BELLOW -->
+
   <section class="spacer30vh">
   </section>
+
   <div class="container">
     <div class="col-md-4 text-center">
       <p>
@@ -41,14 +55,20 @@
       </p>
     </div>
   </div>
+
+  <!-- SPACER SECTION IS HERE SO I DON'T HAVE TO MESS WITH THE MARGIN AND PADDING OF THE BOOTSTRAP ELEMENTS BELLOW -->
+
   <section class="spacer60vh">
   </section>
 
   <div class="container marketing">
 
+    <!-- DIV'S AFECTED BY THE PARALLAX -->
+
     <div class="floatingjar"></div>
     <div class="floatingbox"></div>
-    <!-- START THE FEATURETTES -->
+
+    <!-- START OF THE FEATURETTES -->
 
     <hr class="featurette-divider">
 
@@ -58,7 +78,7 @@
         <p class="lead">A Lê. Ela é nossa chefe de cozinha, a cozinheira por trás da mágica dos bolos e pães da Mel Sol.</p>
       </div>
       <div class="col-md-5">
-          <img src="https://www.efusionsoft.com/ready2go/assets/2013/09/500x500-465x465.gif" width="500px" alt="">
+        <img src="https://www.efusionsoft.com/ready2go/assets/2013/09/500x500-465x465.gif" width="500px" alt="">
       </div>
     </div>
 
@@ -76,8 +96,7 @@
 
     <hr class="featurette-divider">
 
-
-    <!-- /END THE FEATURETTES -->
+    <!-- CLIENT REVIEWS -->
 
     <div class="row">
       <div class="col-lg-4">
@@ -102,6 +121,9 @@
     </div><!-- /.row -->
 
   </div>
+
+  <!-- SCRIPT FOR THE PARALAX BETWEEN FLOATING DIV'S AND BACKGROUND -->
+
   <script src="JavaScript\parallax.js"></script>
 </body>
 
