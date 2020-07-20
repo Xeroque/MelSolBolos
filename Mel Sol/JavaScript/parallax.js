@@ -1,4 +1,6 @@
- window.addEventListener("DOMContentLoaded", scrollLoop, false);
+/* THIS IS THE CODE FOR THE PARALLAX, IT'S BEING CALLED ON LOOP BUT IT SHOULD ONLY BE CALLED WHEN THE SCROLL IS ACTIVE, OPS!
+COMPUTERS THESE DAYS HAVE MEMORY FOR THIS RIGHT?*/
+window.addEventListener("DOMContentLoaded", scrollLoop, false);
 
 var orangeblob = document.querySelector('.orangeblob');
 var floatingbread = document.querySelector('.floatingbread');
@@ -16,7 +18,7 @@ function scrollLoop(e){
     setTranslate(0, yScrollPosition * 0.5, floatingbread);
     setTranslate(0, yScrollPosition * -0.5, floatingberries);
     setTranslate(0, yScrollPosition * -0.5, floatingjar);
-    setTranslate(0, yScrollPosition * -0.6, floatingbox);
+    setTranslate(0, yScrollPosition * -0.6  , floatingbox);
     requestAnimationFrame(scrollLoop)
 }
 
